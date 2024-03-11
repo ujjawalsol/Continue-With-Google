@@ -1,0 +1,30 @@
+{
+  "name": "continue_with_google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "proxy": "http://localhost:5173",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ujjawal Solanki",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.1.0",
+    "cookies-parser": "^1.2.0",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-rate-limit": "^7.2.0",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
